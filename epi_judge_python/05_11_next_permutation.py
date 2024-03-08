@@ -10,6 +10,6 @@ def next_permutation(perm: List[int]) -> List[int]:
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('next_permutation.py',
+        generic_test.generic_test_main('05_11_next_permutation.py',
                                        'next_permutation.tsv',
                                        next_permutation))

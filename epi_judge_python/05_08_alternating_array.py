@@ -47,6 +47,6 @@ def rearrange_wrapper(executor, A):
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('alternating_array.py',
+        generic_test.generic_test_main('05_08_alternating_array.py',
                                        'alternating_array.tsv',
                                        rearrange_wrapper))

@@ -69,6 +69,6 @@ def dutch_flag_partition_wrapper(executor, A, pivot_idx):
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('5_1_dutch_national_flag.py',
+        generic_test.generic_test_main('05_01_dutch_national_flag.py',
                                        'dutch_national_flag.tsv',
                                        dutch_flag_partition_wrapper))

@@ -34,5 +34,5 @@ def random_subset_wrapper(executor, n, k):
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('random_subset.py', 'random_subset.tsv',
+        generic_test.generic_test_main('05_15_random_subset.py', 'random_subset.tsv',
                                        random_subset_wrapper))

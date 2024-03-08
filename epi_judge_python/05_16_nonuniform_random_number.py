@@ -42,5 +42,5 @@ def nonuniform_random_number_generation_wrapper(executor, values,
 if __name__ == '__main__':
     exit(
         generic_test.generic_test_main(
-            'nonuniform_random_number.py', 'nonuniform_random_number.tsv',
+            '05_16_nonuniform_random_number.py', 'nonuniform_random_number.tsv',
             nonuniform_random_number_generation_wrapper))

@@ -15,6 +15,6 @@ def apply_permutation_wrapper(perm, A):
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('apply_permutation.py',
+        generic_test.generic_test_main('05_10_apply_permutation.py',
                                        'apply_permutation.tsv',
                                        apply_permutation_wrapper))

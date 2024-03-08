@@ -10,5 +10,5 @@ def multiply(num1: List[int], num2: List[int]) -> List[int]:
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('int_as_array_multiply.py',
+        generic_test.generic_test_main('05_03_int_as_array_multiply.py',
                                        'int_as_array_multiply.tsv', multiply))

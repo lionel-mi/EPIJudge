@@ -37,6 +37,6 @@ def online_random_sample_wrapper(executor, stream, k):
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('online_sampling.py',
+        generic_test.generic_test_main('05_13_online_sampling.py',
                                        'online_sampling.tsv',
                                        online_random_sample_wrapper))

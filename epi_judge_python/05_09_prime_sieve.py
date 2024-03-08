@@ -11,5 +11,5 @@ def generate_primes(n: int) -> List[int]:
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('prime_sieve.py', 'prime_sieve.tsv',
+        generic_test.generic_test_main('05_09_prime_sieve.py', 'prime_sieve.tsv',
                                        generate_primes))
