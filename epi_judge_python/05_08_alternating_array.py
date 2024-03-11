@@ -7,9 +7,10 @@ from test_framework.test_utils import enable_executor_hook
 
 
 def rearrange(A: List[int]) -> None:
-    # TODO - you fill in here.
-    return
-
+    for idx_m  in range(1, len(A), 2):
+        A[idx_m-1], A[idx_m] = min(A[idx_m], A[idx_m-1]), max(A[idx_m], A[idx_m-1])
+        if idx_m < len(A) - 1:
+            A[idx_m+1], A[idx_m] = min(A[idx_m], A[idx_m+1]), max(A[idx_m], A[idx_m+1])
 
 @enable_executor_hook
 def rearrange_wrapper(executor, A):
