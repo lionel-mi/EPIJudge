@@ -4,8 +4,21 @@ from test_framework import generic_test
 
 
 def apply_permutation(perm: List[int], A: List[int]) -> None:
-    # TODO - you fill in here.
-    return
+    is_permutated = [False] * len(A)
+    for next_head in range(len(A)):
+        if is_permutated[next_head]:
+            continue
+        prev_idx = None
+        next_idx = perm[next_head]
+        tmp = A[next_idx]
+        while prev_idx != next_head:
+            if prev_idx is None:
+                prev_idx = next_head
+            A[next_idx] = A[prev_idx]
+            prev_idx = next_idx
+            next_idx = perm[next_idx]
+
+
 
 
 def apply_permutation_wrapper(perm, A):
