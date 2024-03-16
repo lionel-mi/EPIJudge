@@ -14,7 +14,7 @@ def comp(a, b):
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('valid_ip_addresses.py',
+        generic_test.generic_test_main('06_09_valid_ip_addresses.py',
                                        'valid_ip_addresses.tsv',
                                        get_valid_ip_address,
                                        comparator=comp))

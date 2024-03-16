@@ -21,6 +21,6 @@ def wrapper(x, s):
 
 if __name__ == '__main__':
     exit(
-        generic_test.generic_test_main('string_integer_interconversion.py',
+        generic_test.generic_test_main('06_01_string_integer_interconversion.py',
                                        'string_integer_interconversion.tsv',
                                        wrapper))
