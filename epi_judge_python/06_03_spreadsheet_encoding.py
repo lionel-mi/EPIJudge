@@ -2,8 +2,13 @@ from test_framework import generic_test
 
 
 def ss_decode_col_id(col: str) -> int:
-    # TODO - you fill in here.
-    return 0
+    num = 0
+    for ch in col.lower():
+        d = ord(ch) - ord('a') + 1
+        num = num * 26 + d
+
+    return num
+
 
 
 if __name__ == '__main__':
